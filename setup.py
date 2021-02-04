@@ -7,5 +7,5 @@ setup(name='django_datatables_server_side',
       author="Julien Monnier",
       author_email='jumonnier@gmail.com',
       packages=['django_datatables_server_side'],
-      install_requires=['Django>=1.8']
+      install_requires=['Django>=1.8', 'six==1.15.0']
       )
