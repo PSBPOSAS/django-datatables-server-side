@@ -5,12 +5,12 @@ from django.core.serializers.json import DjangoJSONEncoder
 from django.db.models import Q
 from django.http.response import HttpResponse, HttpResponseBadRequest
 from django.views.generic import View
-from django.utils import six
 from django_datatables_server_side.parameters import (
     Column, ForeignColumn,
     ColumnLink, PlaceholderColumnLink,
     Order, ColumnOrderError)
 import json
+import six
 
 
 DATATABLES_SERVERSIDE_MAX_COLUMNS = 30
